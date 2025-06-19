@@ -1,0 +1,33 @@
+# Initialize a new Git repository
+git init
+
+# Clone a repository from GitHub
+git clone <repository_url>
+
+# Check the status of your files
+git status
+
+# Add files to staging area
+git add <file_name>
+git add .           # Add all files
+
+# Commit changes with a message
+git commit -m "Your commit message"
+
+# Push changes to GitHub
+git push origin <branch_name>
+
+# Pull latest changes from GitHub
+git pull origin <branch_name>
+
+# Check remote repositories
+git remote -v
+
+# Create a new branch
+git branch <branch_name>
+
+# Switch to a branch
+git checkout <branch_name>
+
+# Merge a branch into the current branch
+git merge <branch_name>
